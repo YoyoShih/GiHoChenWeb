@@ -13,7 +13,7 @@ export function Company({ children }: CompanyProps) {
   return (
     <div className='flex-1'>
       <p
-        className='aspect-square text-center bg-[url("/p2.jpg")] bg-cover bg-no-repeat hover:bg-none'
+        className='aspect-square bg-[url("/p2.jpg")] bg-cover bg-no-repeat hover:bg-none flex items-center justify-center'
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
       >
