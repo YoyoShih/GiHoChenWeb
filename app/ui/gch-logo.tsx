@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function GCHLogo() {
   return (
     <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
+      className={`${lusitana.className} flex flex-row items-center leading-none text-gray-800`}
     >
       <Image
         src='/logo.png'
